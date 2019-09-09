@@ -1,0 +1,43 @@
+
+{{ if .Site.Data.testimonial.enable }}
+{{"<!-- Start Testimonial -->" | safeHTML}}
+<div class="testimonial-carousel"  style="background-image: url('../img/testimonials/bg-2.jpg')">
+        <div class="dark-mask"></div>
+        <div class="container">
+                <!--<div class="heading text-center">
+                        <h2>{{ .Site.Params.testimonial.title }}</h2>
+                    </div>
+    
+                    <p class="lead">
+                      {{ .Site.Params.testimonial.subtitle | markdownify }}
+                    </p>-->
+            <div class="homepage owl-carousel">
+                    {{ range .Site.Data.testimonial.testimonialItem }}
+                    {{"<!-- testimonial single -->" | safeHTML}}
+                    <div class="item text-center testimonial-container">
+
+                            {{"<!-- client photo -->" | safeHTML}}
+                            <div class="client-thumb">
+                                <img src="{{ .image | absURL }}" class="img-fluid" alt="Meghna">
+                            </div>
+    
+                            {{"<!-- client info -->" | safeHTML}}
+                            <div class="client-info">
+                                <div class="client-meta">
+                                    <h3>{{ .name }}</h3>
+                                    <span>{{ .date }}</span>
+                                </div>
+                                <div class="client-comment">
+                                    <p>{{ .content }}</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                    {{"<!-- /testimonial single -->" | safeHTML}}
+                    {{ end }}
+                    </div>
+                </div>
+            </div>
+</section>
+{{"<!-- /testimonial -->" | safeHTML}}
+{{ end }}
