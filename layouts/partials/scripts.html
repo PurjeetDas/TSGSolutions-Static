@@ -8,6 +8,7 @@
  {{"<!-- Slick Carousel -->" | safeHTML}}
  <script type="text/javascript" src="{{ "plugins/slick-carousel/slick/slick.min.js" | absURL}}"></script>
  {{"<!-- Portfolio Filtering -->" | safeHTML}}
+ <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
  <script type="text/javascript" src="{{ "plugins/filterzr/jquery.filterizr.min.js" | absURL}}"></script>
  {{"<!-- Magnific popup -->" | safeHTML}}
  <script type="text/javascript" src="{{ "plugins/magnific-popup/dist/jquery.magnific-popup.min.js" | absURL}}"></script>
@@ -16,7 +17,9 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script type='text/javascript' src="{{ .Site.BaseURL }}js/slider-settings.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+<script type='text/javascript' src="{{ .Site.BaseURL }}js/jquery.cycle.all.min.js"></script>
 {{ if .Site.Params.googleMapsApiKey }}
 <script src="//maps.googleapis.com/maps/api/js?key={{.Site.Params.googleMapsApiKey}}&v=3.exp"></script>
 {{ else }}
@@ -33,6 +36,11 @@
 		<script type="text/javascript" src="{{ "plugins/magnific-popup/dist/jquery.magnific-popup.min.js" | absURL}}"></script>
 <!-- owl carousel -->
 <script src="{{ .Site.BaseURL }}js/owl.carousel.min.js"></script>
+<script type='text/javascript'>
+        /* <![CDATA[ */
+        var travelify_slider_value = {"transition_effect":"fade","transition_delay":"4000","transition_duration":"1000"};
+        /* ]]> */
+       </script>
 
 
 
