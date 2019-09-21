@@ -588,7 +588,3 @@ section, div.section {
   background-attachment: fixed;
   background-size: cover;
 }
-
-.row:before, .row:after {
-  display: flex !important;
-  }
