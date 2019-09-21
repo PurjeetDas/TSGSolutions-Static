@@ -34,6 +34,7 @@
 body {
   background-color:#feffff;
   color: #737f8a;
+  font-family: quattrocento sans,sans-serif; 
 }
 /* top navigation */
 #top {
@@ -128,11 +129,35 @@ About US override
   width: 30%;
 }
 
+
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: quattrocento sans,sans-serif;
   font-weight: 900;
   line-height: 1.1;
   color: #feffff;
+}
+.aboutuspara{
+
+  font-family: 'Montserrat Black', sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: 0;
+  margin-bottom: 1.5rem;
+  color:#afbac4;
+}
+ .bar.color-white h3, .bar.color-white h4, .bar.color-white h5, .bar.color-white h6, .bar.color-white p {
+   color: #afbac4;
+}
+
+h2 {
+  font-family: 'Montserrat Black', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.1;
+  letter-spacing: 0;
+  margin-bottom: 1.5rem;
 }
 
 
@@ -267,8 +292,18 @@ section, div.section {
   height: 62px;
 }
 
-
-
+.aboutusitem{
+  padding: 25px;
+}
+.section-bg {
+  background: #292f36;
+}
+.padding-0 {
+  padding: 0!important;
+}
+.about-2 .content-block {
+  padding: 40px;
+}
 .service-block {
   background-color: #353b43;
   padding: 60px 20px;
@@ -519,6 +554,7 @@ section, div.section {
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: black;
+  font-family: quattrocento sans,sans-serif;
 }
 
 #contact{
@@ -537,4 +573,18 @@ section, div.section {
 
 #heading-breadcrumbs h2{
   color:#444;
+}
+
+/*why choose us*/
+.bar.background-image-fixed-2 {
+  background: url(../img/whychooseus.jpg) center top no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*what we do*/
+.bar.background-image-fixed-3 {
+  background: url(../img/banner-whatwedo.jpg) center top no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }

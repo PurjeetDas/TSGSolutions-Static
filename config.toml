@@ -156,12 +156,24 @@ paginate = 10
     title = "Testimonials"
     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
+[params.aboutus]
+    link_url = "aboutus"
+    link_text = "Find Out More"
+
 [params.see_more]
     enable = true
     icon = "fa fa-handshake-o"
-    title = "Our Services"
-    subtitle = "Partnering with TSG Solutions will put a difficult & disruptive business function in the capable hands of professionals"
-    link_url = "#"
+    title = "Why Choose Us?"
+    subtitle = "Outsourcing to the right partner can accelerate business growth. At TSG Solutions, we focus on the twin criteria of cost optimization and high quality customer interactions. As the first point of contact for your customers, we are able to precisely identify (pin-point) the pain points (areas of improvement), strengths and weaknesses; thereby providing you with all the business intelligence you need to ensure a heightened positive experience for customers. As a company, we are highly focussed on the human side of y/our customers. We analyze every customer interaction to identify what could be made better to make your customers happier. "
+    link_url = "contact"
+    link_text = "Get In Touch"
+
+[params.whatwedo]
+    enable = true
+    icon = "fa fa-dot-circle-o"
+    title = "What we do?"
+    subtitle = "We help you deliver quality service to your customers and thus help you generate more revenue for your organisation. We recognise that great customer experience is at the core of the growth prospects of every business, and this can be achieved only by providing great quality in service. Connect with us for innovative solutions for quality service and revenue. . "
+    link_url = "service"
     link_text = "Find Out More"
 
 [params.clients]

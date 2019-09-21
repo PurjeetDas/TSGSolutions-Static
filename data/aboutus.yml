@@ -13,8 +13,7 @@ teamMember :
         url : "#"
       - icon : tf-ion-social-linkedin
         url : "#"
-      - icon : tf-ion-social-dribbble-outline
-        url : "#"
+      
       
   - image : /img/team/team-2.jpg
     name : Frank Miller
@@ -27,8 +26,7 @@ teamMember :
         url : "#"
       - icon : tf-ion-social-linkedin
         url : "#"
-      - icon : tf-ion-social-dribbble-outline
-        url : "#"
+      
       
   - image : /img/team/team-3.jpg
     name : Michael Jonson
@@ -41,8 +39,7 @@ teamMember :
         url : "#"
       - icon : tf-ion-social-linkedin
         url : "#"
-      - icon : tf-ion-social-dribbble-outline
-        url : "#"
+  
       
   - image : /img/team/team-4.jpg
     name : Mo. Kha. Alamgir
@@ -55,5 +52,30 @@ teamMember :
         url : "#"
       - icon : tf-ion-social-linkedin
         url : "#"
-      - icon : tf-ion-social-dribbble-outline
+      
+
+  - image : /img/team/team-4.jpg
+    name : Mo. Kha. Alamgir
+    designation : SEO Specialist
+    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    socialIcon :
+      - icon : tf-ion-social-facebook
         url : "#"
+      - icon : tf-ion-social-twitter
+        url : "#"
+      - icon : tf-ion-social-linkedin
+        url : "#"
+     
+
+  - image : /img/team/team-4.jpg
+    name : Mo. Kha. Alamgir
+    designation : SEO Specialist
+    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    socialIcon :
+      - icon : tf-ion-social-facebook
+        url : "#"
+      - icon : tf-ion-social-twitter
+        url : "#"
+      - icon : tf-ion-social-linkedin
+        url : "#"
+          

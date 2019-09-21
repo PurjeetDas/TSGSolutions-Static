@@ -1,3 +1,26 @@
+
+{{ if isset .Site.Params "see_more" }}
+{{ if .Site.Params.see_more.enable }}
+<section class="bar background-image-fixed-3 no-mb color-white text-center">
+    <div class="dark-mask"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="icon icon-lg"><i class="{{ .Site.Params.whatwedo.icon }}"></i>
+                </div>
+                <h2 class="text-uppercase">{{ .Site.Params.whatwedo.title }}</h2>
+                <p class="aboutuspara">{{ .Site.Params.whatwedo.subtitle }}</p>
+                <p class="text-center">
+                    <a href="{{ .Site.Params.whatwedo.link_url }}" class="btn btn-template-transparent-black btn-lg">{{ .Site.Params.whatwedo.link_text }}</a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
 <section id="services" class="bg-one section">
     <div class="container">
         <div class="row">

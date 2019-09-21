@@ -1,5 +1,64 @@
 {{ if .Site.Data.aboutus.enable}}
 {{"<!-- Start Our aboutus -->" | safeHTML}}
+
+<section class="bg-one about section" id="about">
+    <div class="container" >
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- section title -->
+                <div class="title text-center wow fadeIn" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-name: fadeIn;">
+                    <h2>Our <span class="color">Goal</span> </h2>
+                    <div class="border-meghna"></div>
+                </div>
+            </div>
+            <!-- /section title -->
+
+            
+            <!-- About item -->
+            <div class="col-lg-4 text-center wow fadeInUp" data-wow-duration="500ms" style="visibility: visible; animation-duration: 500ms; animation-name: fadeInUp;">
+                <div class="block">
+                    <div class="icon-box">
+                        <i class="tf-ion-heart"></i>
+                    </div>
+                    <!-- Express About Yourself -->
+                    <div class="content text-center">
+                        <h3 class="ddd">At Our Core</h3>
+                          <p class="common">Our employees, our clients, and their customers are at the heart of everything we do.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- About item -->
+            <div class="col-lg-4 text-center wow fadeInUp" data-wow-duration="500ms" style="visibility: visible; animation-duration: 500ms; animation-name: fadeInUp;">
+                <div class="block">
+                    <div class="icon-box">
+                        <i class="tf-ion-eye"></i>
+                    </div>
+                    <!-- Express About Yourself -->
+                    <div class="content text-center">
+                        <h3 class="ddd">Our Vision</h3>
+                          <p class="common"> Creating More Value for the Customer.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- About item -->
+            <div class="col-lg-4 text-center wow fadeInUp" data-wow-duration="500ms" style="visibility: visible; animation-duration: 500ms; animation-name: fadeInUp;">
+                <div class="block">
+                    <div class="icon-box">
+                        <i class="tf-ion-android-bulb"></i>
+                    </div>
+                    <!-- Express About Yourself -->
+                    <div class="content text-center">
+                        <h3 class="ddd">Our Mission</h3>
+                          <p class="common">A customer centric company that takes the responsibility to create more value for the customer by offering resolutions that are based on innovation and integrity.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
 <section id="our-aboutus" class="section bg-one">
     <div class="container">
         <div class="row">
@@ -11,10 +70,10 @@
                 </div>
             </div>
             {{"<!-- /section title -->" | safeHTML}}
-
+            <div class="owl-carousel owl-theme aboutusitems">
             {{ range .Site.Data.aboutus.teamMember}}
             {{"<!-- aboutus member -->" | safeHTML}}
-            <div class="col-lg-3 col-md-6 col-12 wow fadeInDown" data-wow-duration="500ms">
+            <div class="col-lg-12 wow fadeInDown" data-wow-duration="500ms">
                 <div class="team-member">
                     <div class="member-photo">
                         {{"<!-- member photo -->" | safeHTML}}
@@ -40,6 +99,8 @@
             </div>
             {{"<!-- end aboutus member -->" | safeHTML}}
             {{ end }}
+            </div>
+            
         </div>
     </div>
 </section>
