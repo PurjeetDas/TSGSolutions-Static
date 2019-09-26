@@ -1,10 +1,10 @@
 enable : true
 bgImage : /img/testinmonials/bg-2.jpg
 testimonialItem :
-  - name : Jonathon Andrew
+  - name : Jason S.
     image : img/team/client-1.jpg
     date : Dec 26, 2018
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+    content : TSG Solutions delivers a tremendously beneficial service to our company. They assist us with support of multiple teams during times of high volume. TSG’s ability to efficiently and quickly source and train agents is crucial to supporting our company’s growth and ensuring that our worflows remain stable. They are very responsive, flexible and provide highly professional results and follow ups. TSG is an excellent resource for any business looking to scale up their operations.
 
   - name : Jonathon Andrew
     image : /img/team/client-2.jpg

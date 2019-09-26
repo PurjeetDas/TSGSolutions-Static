@@ -93,7 +93,8 @@
                     <div class="member-meta">
                         <h4>{{ .name }}</h4>
                         <span>{{ .designation }}</span>
-                        <p>{{ .description }}</p>
+                        <p>{{ .description }}<span id="dots">...</span><span id="more{{ .name }}" class="more">{{ .descriptionmore }}</span></p>
+                        <button onclick="myFunction(id)" id="{{ .name }}" class="btn btn-secondary">Read more</button>
                     </div>
                 </div>
             </div>
@@ -104,5 +105,25 @@
         </div>
     </div>
 </section>
+
+<script>
+function myFunction(id) {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more"+id);
+  var btnText = document.getElementById(id);
+  
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+</script>
 {{"<!-- /aboutus -->" | safeHTML}}
 {{ end }}

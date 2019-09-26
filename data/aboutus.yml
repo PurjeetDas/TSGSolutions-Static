@@ -3,9 +3,10 @@ heading : Our
 headingSpan : Team
 teamMember :
   - image : /img/team/team-1.jpg
-    name : Abul Mal Muhit
-    designation : CEO/Founder
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    name : Hemant Pandya
+    designation : CEO/Chairman
+    description : Hemant is the founding chairman of TSG solutions. With a diverse career spanning across multiple verticals in the manufacturing sector for over 34 years, Hemant’s visionary leadership drives TSG to forge partnerships and evolve them into a long term win-win relationships with our clients.
+    descriptionmore : His incisive approach in deploying the tech-based solutions in the manufacturing sector was a game changer for many organisations. He looks for the optimal man-machine mix while developing solutions for the customer management. He oversees our automation projects closely to deliver maximum value to our clients.
     socialIcon :
       - icon : tf-ion-social-facebook
         url : "#"
@@ -16,9 +17,10 @@ teamMember :
       
       
   - image : /img/team/team-2.jpg
-    name : Frank Miller
-    designation : Manager
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    name : Paula Barreto Fortes
+    designation : Director (Digital Strategy)
+    description : Paula brings over ten years of project management experience to TSG solutions. Prior to joining TSG in 2019, she worked with some of the major players in the food industry
+    descriptionmore : Apart from being a Scrum master for a sales strategic project and developing agile teams at Bimbo do Brasil, Paula focused on innovations that drove massive improvements in productivity. Armed with a certificate program in digital marketing in 2019, Paula leads the Digital strategy in TSG. She seeks to accomplish the twin goals of automation and digitization to maximize process efficiency.
     socialIcon :
       - icon : tf-ion-social-facebook
         url : "#"
@@ -29,9 +31,10 @@ teamMember :
       
       
   - image : /img/team/team-3.jpg
-    name : Michael Jonson
-    designation : Web Developer
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    name : Karthika Raj
+    designation : Director Creative (Media, Print vertical)
+    description : Karthika is the Creative Director at TSG. She breathes and lives visuals through all possible media such as photography, film, sketches etc. She is also a writer, avid reader and a self-described “dreamer”.
+    descriptionmore :  At TSG, Karthika is involved in ideating, conceptualizing and implementing the creative projects.
     socialIcon :
       - icon : tf-ion-social-facebook
         url : "#"
@@ -42,9 +45,10 @@ teamMember :
   
       
   - image : /img/team/team-4.jpg
-    name : Mo. Kha. Alamgir
-    designation : SEO Specialist
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    name : Kalpesh Joshi
+    designation : General Counsel
+    description : Kalpesh has over 18 years of experience in the legal profession. From being an independent legal professional, Kalpesh has risen to become the managing partner of Kalpesh Joshi Associates, Advocates in a few years. 
+    descriptionmore : He has been practicing law in areas such as civil litigation and real estate transactions consultancy and documentation. At TSG he is the general counsel relating to matters of law.
     socialIcon :
       - icon : tf-ion-social-facebook
         url : "#"
@@ -57,7 +61,8 @@ teamMember :
   - image : /img/team/team-4.jpg
     name : Mo. Kha. Alamgir
     designation : SEO Specialist
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    description : Kalpesh has over 18 years of experience in the legal profession. From being an independent legal professional, Kalpesh has risen to become the managing partner of Kalpesh Joshi Associates, Advocates in a few years. 
+    descriptionmore : abcd
     socialIcon :
       - icon : tf-ion-social-facebook
         url : "#"
@@ -71,6 +76,7 @@ teamMember :
     name : Mo. Kha. Alamgir
     designation : SEO Specialist
     description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    descriptionmore : abcd
     socialIcon :
       - icon : tf-ion-social-facebook
         url : "#"

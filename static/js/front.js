@@ -91,6 +91,8 @@ function sliderHomepage () {
   }
 }
 
+
+
 /* sliders */
 function sliders () {
   if ($('.owl-carousel').length) {

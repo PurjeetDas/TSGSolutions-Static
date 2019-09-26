@@ -1,5 +1,5 @@
 baseurl = "http://tsgsolutions-purjeet.s3-website-us-east-1.amazonaws.com/"
-title = "Team Synergy Global Solutions"
+title = "Team Synergein Global Solutions"
 theme = "hugo-universal-theme"
 themesDir = "themes"
 languageCode = "en-us"
