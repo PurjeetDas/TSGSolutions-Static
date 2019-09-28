@@ -13,13 +13,13 @@
                             <img src="{{ .banner | absURL }}" class="pngfix wp-post-image" alt="{{ .Title }}" title="{{ .Title }}" style="max-width: 100%">
                 </a>
             </figure>
-                  <!-- <article class="featured-text">
+                  <article class="featured-text">
                             <div class="featured-title">
-                            <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+                            <span class=".featured-title ">{{ .Title }}</span>
                 </div>
                             <div class="featured-content">{{ printf "%s" .Summary | markdownify }}
                 </div>
-            </article>--><!-- .featured-text -->
+            </article><!-- .featured-text -->
                 </div><!-- .slides -->
         {{ end }}
         {{ end }}

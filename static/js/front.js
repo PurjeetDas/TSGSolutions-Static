@@ -84,6 +84,7 @@ function sliderHomepage () {
     $('#slider').owlCarousel({
       autoPlay: 3000,
       items: 4,
+     
       itemsDesktopSmall: [900, 3],
       itemsTablet: [600, 3],
       itemsMobile: [500, 2]
@@ -98,25 +99,21 @@ function sliders () {
   if ($('.owl-carousel').length) {
     $('.customers').owlCarousel({
       items: 6,
-      itemsDesktopSmall: [990, 4],
+      itemsDesktopSmall: [990, 3],
       itemsTablet: [768, 2],
       itemsMobile: [480, 1]
     })
 
     $('.aboutusitems').owlCarousel({
       loop:true,
-      margin:10,
       nav:true,
+      margin:6,
+      items:3,
+      responsiveClass:true,
       responsive:{
-          0:{
-              items:1
-          },
-          600:{
-              items:3
-          },
-          1000:{
-              items:5
-          }
+        480 : { items : 1  }, // from zero to 480 screen width 4 items
+        768 : { items : 2  }, // from 480 screen widthto 768 6 items
+        1024 : { items : 3 }  // from 768 screen width to 1024 8 items
       }
   })
     

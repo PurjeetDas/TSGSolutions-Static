@@ -92,7 +92,7 @@
                     {{"<!-- member name & designation -->" | safeHTML}}
                     <div class="member-meta">
                         <h4>{{ .name }}</h4>
-                        <span>{{ .designation }}</span>
+                        <h5>{{ .designation }}</h5>
                         <p>{{ .description }}<span id="dots">...</span><span id="more{{ .name }}" class="more">{{ .descriptionmore }}</span></p>
                         <button onclick="myFunction(id)" id="{{ .name }}" class="btn btn-secondary">Read more</button>
                     </div>

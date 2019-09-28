@@ -44,23 +44,15 @@ paginate = 10
 
 # Top bar social links menu
 
-[[menu.topbar]]
-    weight = 1
-    name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
-    pre = "<i class='fa fa-2x fa-github'></i>"
 
-[[menu.topbar]]
-    weight = 2
-    name = "Facebook"
-    url = "http://facebook.com"
-    pre = "<i class='fa fa-2x fa-facebook'></i>"
+
+
 
 [[menu.topbar]]
     weight = 3
-    name = "Twitter"
-    url = "http://twitter.com"
-    pre = "<i class='fa fa-2x fa-twitter'></i>"
+    name = "LinkedIn"
+    url = "https://in.linkedin.com/"
+    pre = "<i class='fa fa-2x fa-linkedin'></i>"
 
 [[menu.topbar]]
     weight = 4
@@ -110,7 +102,7 @@ paginate = 10
     logo_small = "img/logo-small.png"
     address = """<p><strong>Team Synergy Global Solutions.</strong>
         <br>401/C, Rajtilak plaza, 4th Floor,Bopal
-        <br>Ahamedabad - 380060
+        <br>Ahmedabad - 380060
         <br>
         <strong>India</strong>
       </p>
@@ -124,7 +116,7 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +1 (619) 534-9915 or info@tsgsolutions.in.</p>
+    text = """<p class="hidden-sm hidden-xs">Call us on +1 (619) 534-9915</p>
       <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
       <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
       </p>
