@@ -31,7 +31,7 @@ paginate = 10
 
 [[menu.main]]
     identifier = "service"
-    name = "Services"
+    name = "Solutions"
     url  = "/service/"
     weight = 3
 
@@ -92,17 +92,17 @@ paginate = 10
     email = "your@email.com"
     contact_form_ajax = false
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2019 - 2020, Team Synergy Global Solutions; all rights reserved."
+    about_us = "<p>We offer a variety of services ranging from traditional customer service operations to automation of contact services. Services are offered through multiple channels such as chat, e-mail, phone and social media. Customer obsession is at our very heart and delivering great customer relations for our clients is our motto. In dynamic business situations where customer preferences change faster than ever, we are agile and flexible in our approach to offer the best solutions. Our clients value our start-up culture and appreciate our readiness to partner with them for providing the best customer experience.</p>"
+    copyright = "Copyright (c) 2016 - 2017, Team Synergy Global Solutions; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
     logo = "img/logo.png"
-    logo_small = "img/logo-small.png"
+    logo_small = "img/logo.png"
     address = """<p><strong>Team Synergy Global Solutions.</strong>
-        <br>401/C, Rajtilak plaza, 4th Floor,Bopal
-        <br>Ahmedabad - 380060
+        <br> No. A210 Titanium city centre , 100 Feet Anand Nagar Rd Satellite
+        <br>Ahmedabad - 380009
         <br>
         <strong>India</strong>
       </p>
@@ -116,7 +116,7 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Call us on +1 (619) 534-9915</p>
+    text = """<p class="hidden-sm hidden-xs aboutuspara" >Call us on +1 (619) 534-9915</p>
       <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
       <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
       </p>

@@ -2,11 +2,23 @@ enable : true
 heading : Our
 headingSpan : Team
 teamMember :
-  - image : /img/team/team-1.jpg
+  - image : /img/team/hemantkumar.jpg
     name : Hemant Pandya
-    designation : CEO/Chairman
-    description : Hemant is the founding chairman of TSG solutions. With a diverse career spanning across multiple verticals in the manufacturing sector for over 34 years, Hemant’s visionary leadership drives TSG to forge partnerships and evolve them into a long term win-win relationships with our clients.
-    descriptionmore : His incisive approach in deploying the tech-based solutions in the manufacturing sector was a game changer for many organisations. He looks for the optimal man-machine mix while developing solutions for the customer management. He oversees our automation projects closely to deliver maximum value to our clients.
+    designation : CEO 
+    description : With a diverse career spanning across multiple verticals in the various sectors for over 34 years, Hemant’s visionary leadership drives TSG to forge partnerships and evolve them into a long term win-win relationships with our clients.
+    descriptionmore : His incisive approach in deploying the tech-based solutions in the manufacturing sector was a game changer for many organisations. He looks for the optimal man-machine mix while developing solutions for the customer management
+    socialIcon :
+      - icon : tf-ion-social-facebook
+        url : "#"
+      - icon : tf-ion-social-twitter
+        url : "#"
+      - icon : tf-ion-social-linkedin
+        url : "#"
+  - image : /img/team/divyadas.jpg
+    name : Divya Das
+    designation : Director, Human Resources
+    description : Divya is an astute professional in the Human Capital and Learning, Leadership Development domains, having managed diverse roles spanning the entire gamut of Human Resources ranging from Talent Acquisition, Talent Engagement, Talent Management & development. 
+    descriptionmore : Across various roles over the years, she has been instrumental in setting up HR functions from the scratch, redefining existing HR teams, policy formulation, automation initiatives with the help of external institutions.
     socialIcon :
       - icon : tf-ion-social-facebook
         url : "#"
@@ -15,8 +27,7 @@ teamMember :
       - icon : tf-ion-social-linkedin
         url : "#"
       
-      
-  - image : /img/team/team-2.jpg
+  - image : /img/team/paula.jpg
     name : Paula Barreto Fortes
     designation : Director (Digital Strategy)
     description : Paula brings over ten years of project management experience to TSG solutions. Prior to joining TSG in 2019, she worked with some of the major players in the food industry
@@ -28,9 +39,8 @@ teamMember :
         url : "#"
       - icon : tf-ion-social-linkedin
         url : "#"
-      
-      
-  - image : /img/team/team-3.jpg
+
+  - image : /img/team/KarthikaRaj.jpg
     name : Karthika Raj
     designation : Director Creative (Media, Print vertical)
     description : Karthika is the Creative Director at TSG. She breathes and lives visuals through all possible media such as photography, film, sketches etc. She is also a writer, avid reader and a self-described “dreamer”.
@@ -41,42 +51,12 @@ teamMember :
       - icon : tf-ion-social-twitter
         url : "#"
       - icon : tf-ion-social-linkedin
-        url : "#"
-  
-      
-  - image : /img/team/team-4.jpg
-    name : Kalpesh Joshi
-    designation : General Counsel
-    description : Kalpesh has over 18 years of experience in the legal profession. From being an independent legal professional, Kalpesh has risen to become the managing partner of Kalpesh Joshi Associates, Advocates in a few years. 
-    descriptionmore : He has been practicing law in areas such as civil litigation and real estate transactions consultancy and documentation. At TSG he is the general counsel relating to matters of law.
-    socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "#"
-      - icon : tf-ion-social-twitter
-        url : "#"
-      - icon : tf-ion-social-linkedin
-        url : "#"
-      
-
-  - image : /img/team/team-4.jpg
-    name : Mo. Kha. Alamgir
+        url : "#"            
+  - image : /img/team/sandip.jpg
+    name : Director, IT Infrastructure and Security
     designation : SEO Specialist
-    description : Kalpesh has over 18 years of experience in the legal profession. From being an independent legal professional, Kalpesh has risen to become the managing partner of Kalpesh Joshi Associates, Advocates in a few years. 
-    descriptionmore : abcd
-    socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "#"
-      - icon : tf-ion-social-twitter
-        url : "#"
-      - icon : tf-ion-social-linkedin
-        url : "#"
-     
-
-  - image : /img/team/team-4.jpg
-    name : Mo. Kha. Alamgir
-    designation : SEO Specialist
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    descriptionmore : abcd
+    description : Sandeep oversees information security and IT infrastructure at TSG.  Before joining us,  he worked with MTS India and CMS where he was responsible for the implementation of information security standards.
+    descriptionmore : He transformed those organisations to become compliant with ISO standards for IT security. Sandeep is diligent and meticulous in his risk assessment and his mission at TSG is to develop systems to safeguard customers data.Sandeep is an effective presenter and interacts with groups of people to stress upon information and data security.  
     socialIcon :
       - icon : tf-ion-social-facebook
         url : "#"

@@ -1,72 +1,56 @@
-<div class="container" id="contact">
-
-    <div class="row">
-        <div class="col-md-8">
-
-            <section>
-
-                {{ .Content }}
-
-                {{ if isset .Site.Params "email" }}
-
-                <div class="heading">
-                  <h3>{{ i18n "contactForm" }}</h3>
-                </div>
-
-                <div id="contact-message"></div>
-
-                <form {{ with .Site.Params.contact_form_ajax }}class="contact-form-ajax"{{ else }}{{ end }} method="post" action="https://getform.io/f/16bc4fa2-59ea-44c4-9372-ed5edadbcb02 ">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                              <label for="name">{{ i18n "contactName" }}</label>
-                                <input type="text" class="form-control" name="name" id="name" required>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label for="email">{{ i18n "contactMail" }}</label>
-                                <input type="text" class="form-control" name="email" id="email" required>
-                            </div>
-                        </div>
-                        <div class="col-sm-12">
-                            <div class="form-group">
-                              <label for="message">{{ i18n "contactMessage" }}</label>
-                                <textarea id="message" class="form-control" name="message" required></textarea>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-12 text-center">
-                          <button type="submit" class="btn btn-template-main"><i class="fa fa-envelope-o"></i>{{ i18n "contactSend" }}</button>
-
-                        </div>
+<section id="contact-us" class="contact-us section-bg">
+        <div class="container pb-5">
+            <div class="row">
+                <div class="col-lg-12">
+                    {{"<!-- section title -->" | safeHTML}}
+                    <div class="title text-center wow fadeIn" data-wow-duration="500ms">
+                        <h2>{{ with .Site.Data.contact.heading }} {{ . }} {{ end }} <span
+                                class="color">{{ with .Site.Data.contact.headingSpan }} {{ . }} {{ end }}</span></h2>
+                        <div class="border-meghna"></div>
                     </div>
-                    <!-- /.row -->
-                </form>
-
-                {{ end }}
-
-            </section>
-
+                </div>
+                {{"<!-- /section title -->" | safeHTML}}
+    
+                {{"<!-- Contact Details -->" | safeHTML}}
+                <div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
+                    {{ with .Site.Data.contact.title }}<h3>{{ . }}</h3> {{ end }}
+                    {{ with .Site.Data.contact.content }} <p> {{ . }} </p> {{ end }}
+                    <div class="contact-details">
+                        {{ range .Site.Data.contact.contactDetails }}
+                        <div class="con-info clearfix">
+                            <i class="{{ .icon }}"></i>
+                            <span>{{ .info }}</span>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+    
+                {{"<!-- Contact Form -->" | safeHTML}}
+                <div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <form {{ with .Site.Params.contact_form_ajax }} d="contact-form" class="form-meghna" {{ else }}{{ end }} method="post" action="https://getform.io/f/16bc4fa2-59ea-44c4-9372-ed5edadbcb02 ">
+                    
+    
+                        <input name="e-mail" type="text" id="e-mail" autocomplete="off">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="6" placeholder="Message" class="form-control" name="message"
+                                id="message"></textarea>
+                        </div>
+                       
+                        <div id="cf-submit">
+                                <button type="submit" class="btn btn-template-main"><i class="fa fa-envelope-o"></i>{{ i18n "contactSend" }}</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-
-        <div class="col-md-4">
-
-            {{ if isset .Site.Params "address" }}
-            <section>
-
-              <h3 class="text-uppercase"> {{ i18n "contactAddrTitle" }}</h3>
-
-                {{ .Site.Params.address | safeHTML }}
-
-            </section>
-
-            {{ end }}
-
-        </div>
-
-    </div>
-    <!-- /.row -->
-</div>
-
-<!--{{ partial "map.html" . }} -->
+    
+    

@@ -1,0 +1,17 @@
+enable : true
+heading : Get In
+headingSpan : Touch
+title : Contact Details
+content : Please complete the contact form and someone will be in contact with you soon. We look forward to speaking with you!
+enable_maps : true
+mapLatitude : 51.5223477
+mapLongitude: -0.1622023
+contactDetails :
+  - icon : tf-map-pin
+    info : "No. A210 Titanium city centre , 100 Feet Anand Nagar Rd Satellite , Ahmedabad 380009"
+
+  - icon : tf-ion-ios-telephone-outline
+    info : "Phone: +1 (619) 534-9915"
+
+  - icon : tf-ion-ios-email-outline
+    info : "Email: info@tsgsolutions.in"
