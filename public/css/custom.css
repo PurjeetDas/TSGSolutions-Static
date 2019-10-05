@@ -29,7 +29,7 @@
 }
 .client-comment p {
   color: #f8f8f9;
-  font-size: 18px;
+ 
 }
 @media only screen and (max-width:600px){
   .featured-content,.featured-text,.featured-title{
@@ -128,7 +128,7 @@ About US override
 
 .client-comment p {
   color: none;
-  font-size: 18px;
+
 }
 
 .bg-one {
@@ -292,7 +292,7 @@ section, div.section {
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  height: 400px;
+  height: 420px;
 }
 
 .owl-carousel {
@@ -669,8 +669,9 @@ font-size: 16px;
   .customers .item img {
     display: inline-block;
     /*filter: url(data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter i…0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale);
-    */filter: gray;
-    -webkit-filter: grayscale(100%);
+    */
+    filter:grayscale(0);
+    -webkit-filter: grayscale(0%);
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
@@ -872,6 +873,7 @@ font-size: 16px;
   }
 
   .contact-us {
+    height:528px;
     padding-top: 50px;
 }
 .contact-info p {
