@@ -309,6 +309,9 @@ section, div.section {
  
 }
 
+figure {
+  margin: 0 0 -1rem;
+}
 
 .navbar-brand>img {
  
@@ -707,7 +710,7 @@ left: 0
   display: flex;
   flex-wrap: wrap;
   width: 80%;
-  margin: 2% auto;
+  margin-left:190px;
   overflow: hidden;
   font-size: 15px;
   list-style-type: none;

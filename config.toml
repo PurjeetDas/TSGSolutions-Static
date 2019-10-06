@@ -163,8 +163,8 @@ paginate = 10
 [params.whatwedo]
     enable = true
     icon = "fa fa-dot-circle-o"
-    title = "What we do?"
-    subtitle = "We help you deliver quality service to your customers and thus help you generate more revenue for your organisation. We recognise that great customer experience is at the core of the growth prospects of every business, and this can be achieved only by providing great quality in service. Connect with us for innovative solutions for quality service and revenue. . "
+    title = "What we do"
+    subtitle = "We help you deliver quality service at a better value, which then generates more profitability for your organisation. We recognise that great customer experience is at the core of the growth prospects of every business, and this can be achieved only by providing great quality in service. Connect with us for innovative solutions for quality service and revenue. "
     link_url = "service"
     link_text = "Find Out More"
 

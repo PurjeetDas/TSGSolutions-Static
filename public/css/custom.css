@@ -1,5 +1,6 @@
 /* your styles go here */
 
+
 .box-image-text .image {
     min-height: 200px;
     max-height: 200px;
@@ -47,6 +48,8 @@ body {
   background-color:#feffff;
   color: #737f8a;
   font-family: quattrocento sans,sans-serif; 
+  height:auto!important;
+    min-height:100vh;
 }
 /* top navigation */
 #top {
@@ -80,6 +83,9 @@ body {
   
 }
 
+
+
+
 .navbar ul.nav > li.active > a, .navbar ul.nav > li.open > a {
   text-decoration: none !important;
   border-top: solid 5px #3aafa9;
@@ -101,6 +107,10 @@ a, a:focus, a:hover {
   text-decoration: none;
   outline: 0;
   
+}
+.logo {
+  margin-top: 10px;
+  display: inline-block;
 }
 .navbar ul.nav > li > a {
   text-transform: uppercase;
@@ -272,11 +282,7 @@ section, div.section {
   width: 100%;
   height: auto;
 }
-#footer {
-  background: #1f2833;
-  padding: 10px 0px;
-  color:none;
-}
+
 
 .navigation {
   background-color: #1d2024;
@@ -303,18 +309,14 @@ section, div.section {
  
 }
 
+
 .navbar-brand>img {
-  display: block;
-  float: left;
-  margin-left:30px
+ 
+  
+  margin-left:-5px;
+  margin-top:-10px;
 }
-.navbar-brand {
-  float: left;
-  padding: 10px 15px;
-  font-size: 18px;
-  line-height: 40px;
-  height: 62px;
-}
+
 
 .aboutusitem{
   padding: 25px;
@@ -586,6 +588,21 @@ font-size: 16px;
 
 /*footer*/
 
+
+
+#footer {
+ 
+  padding: 0px 0;
+  color: #999999;
+  overflow: hidden;  /*MODIFICATION */
+padding-bottom:2px; /*MODIFICATION */
+       height:120px;
+  margin-bottom:0;
+right: 0;
+bottom: 0 !important;
+left: 0
+}
+
 #copyright {
    background: #0b0c10;
   color: #66f6f1;
@@ -751,10 +768,11 @@ font-size: 16px;
   width: 100%;
   padding: 5%;
   box-sizing:border-box;
-  background-color: rgba(0, 128, 128, 0.8);
+  background-color: rgba(0, 128, 128, 1);
   font-weight: 300;
   -webkit-transition:  -webkit-transform .2s ease-out, opacity .3s ease-out;
           transition:          transform .2s ease-out, opacity .3s ease-out;
+          color:#ffff;
 }
 .hex h1 {
   bottom: 50%;
@@ -913,8 +931,9 @@ font-size: 16px;
 
 
   .contact-us {
-    height:528px;
+    
     padding-top: 50px;
+    padding-bottom: 50px
 }
 .contact-info p {
   margin-bottom: 25px;
@@ -950,4 +969,13 @@ input#e-mail, #hidden_iframe {
   box-shadow: none;
   border-radius: 1px;
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  /* Styles */
+  /* footer class or footer id */
+  #footer {
+  bottom: 0 !important;
+  padding: 0 0 0px !important;
+  }
+  }
   
