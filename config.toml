@@ -1,4 +1,4 @@
-baseurl = "http://tsgsolutions-purjeet.s3-website-us-east-1.amazonaws.com/"
+baseurl = "http://tsgsolutions.in/"
 title = "Team Synergein Global Solutions"
 theme = "hugo-universal-theme"
 themesDir = "themes"
