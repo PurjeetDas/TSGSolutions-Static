@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Team Synergein Global Solutions</title>
-    <link>https://tsgsolutions.in/categories/</link>
+    <link>http://tsgsolutions.in/categories/</link>
     <description>Recent content in Categories on Team Synergein Global Solutions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://tsgsolutions.in/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tsgsolutions.in/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

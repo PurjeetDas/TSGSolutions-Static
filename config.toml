@@ -1,5 +1,5 @@
 
-baseurl = "http://localhost:1313/"
+baseurl = "http://tsgsolutions.in/"
 
 title = "Team Synergein Global Solutions"
 theme = "hugo-universal-theme"
