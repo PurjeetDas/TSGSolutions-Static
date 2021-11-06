@@ -1,29 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://tsgsolutions.in/aboutus/</loc>
+    <loc>https://tsgsolutions.in/aboutus/</loc>
   </url>
   
   <url>
-    <loc>http://tsgsolutions.in/categories/</loc>
+    <loc>https://tsgsolutions.in/categories/</loc>
   </url>
   
   <url>
-    <loc>http://tsgsolutions.in/contact/</loc>
+    <loc>https://tsgsolutions.in/contact/</loc>
   </url>
   
   <url>
-    <loc>http://tsgsolutions.in/service/</loc>
+    <loc>https://tsgsolutions.in/service/</loc>
   </url>
   
   <url>
-    <loc>http://tsgsolutions.in/tags/</loc>
+    <loc>https://tsgsolutions.in/tags/</loc>
   </url>
   
   <url>
-    <loc>http://tsgsolutions.in/</loc>
+    <loc>https://tsgsolutions.in/</loc>
   </url>
   
 </urlset>

@@ -17,7 +17,7 @@ teamMember :
       
   - image : /img/team/paula.jpg
     name : Paula Barreto Fortes
-    designation : Director (Digital Strategy)
+    designation : Director ( Digital Strategy )
     description : Paula brings over ten years of project management experience to TSG solutions. Prior to joining TSG in 2019, she worked with some of the major players in the food industry
     descriptionmore : Apart from being a Scrum master for a sales strategic project and developing agile teams at Bimbo do Brasil, Paula focused on innovations that drove massive improvements in productivity. Armed with a certificate program in digital marketing in 2019, Paula leads the Digital strategy in TSG. She seeks to accomplish the twin goals of automation and digitization to maximize process efficiency.
     socialIcon :
@@ -30,7 +30,7 @@ teamMember :
 
   - image : /img/team/KarthikaRaj.jpg
     name : Karthika Raj
-    designation : Director,Operations(Print vertical)
+    designation : Director, Operations ( Print vertical )
     description : Karthika is the Creative Director at TSG. She breathes and lives visuals through all possible media such as photography, film, sketches etc. She is also a writer, avid reader and a self-described “dreamer”.
     descriptionmore :  At TSG, Karthika is involved in ideating, conceptualizing and implementing the creative projects.
     socialIcon :
@@ -40,18 +40,6 @@ teamMember :
         url : "#"
       - icon : tf-ion-social-linkedin
         url : "#"            
-  - image : /img/team/sandip.jpg
-    name : Sandeep M
-    designation : Director, IT Infrastructure and Security
-    description : Sandeep oversees information security and IT infrastructure at TSG.  Before joining us,  he worked with MTS India and CMS where he was responsible for the implementation of information security standards.
-    descriptionmore : He transformed those organisations to become compliant with ISO standards for IT security. Sandeep is diligent and meticulous in his risk assessment and his mission at TSG is to develop systems to safeguard customers data.Sandeep is an effective presenter and interacts with groups of people to stress upon information and data security.  
-    socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "#"
-      - icon : tf-ion-social-twitter
-        url : "#"
-      - icon : tf-ion-social-linkedin
-        url : "#"
   - image : /img/team/divyadas.jpg
     name : Divya Das
     designation : Director, Human Resources

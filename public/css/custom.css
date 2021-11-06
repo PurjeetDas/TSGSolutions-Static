@@ -696,6 +696,9 @@ left: 0
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
 }
+.glassdooricon{
+  background-image: url(../img/glassdoor-stacked-rgb.jpg)
+}
 .channel-section{
   background-size: cover;
     position: relative;

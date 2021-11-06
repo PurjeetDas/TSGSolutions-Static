@@ -1,4 +1,6 @@
-baseurl = "http://tsgsolutions.in/"
+
+baseurl = "http://localhost:1313/"
+
 title = "Team Synergein Global Solutions"
 theme = "hugo-universal-theme"
 themesDir = "themes"
@@ -51,7 +53,7 @@ paginate = 10
 [[menu.topbar]]
     weight = 3
     name = "LinkedIn"
-    url = "https://in.linkedin.com/"
+    url = "https://www.linkedin.com/company/team-synergein-global-solutions/"
     pre = "<i class='fa fa-2x fa-linkedin'></i>"
 
 [[menu.topbar]]
@@ -59,6 +61,12 @@ paginate = 10
     name = "Email"
     url = "mailto:info@tsgsolutions.in"
     pre = "<i class='fa fa-2x fa-envelope'></i>"
+
+[[menu.topbar]]
+    weight = 5
+    name = "Glassdoor"
+    url = "https://www.glassdoor.co.in/Overview/Working-at-Team-Synergein-Global-Solutions-EI_IE1994501.11,42.htm"
+    pre = "<span style='padding-right:3px;padding-left:10px; padding-top: 3px; display:inline-block;' ><img class='manImg' src='img/glassdoorv1.jpg'></img></span>"
 
 [params]
     viewMorePostLink = "/blog/"
@@ -93,7 +101,7 @@ paginate = 10
     contact_form_ajax = false
 
     about_us = "<p>We offer a variety of services ranging from traditional customer service operations to automation of contact services. Services are offered through multiple channels such as chat, e-mail, phone and social media. Customer obsession is at our very heart and delivering great customer relations for our clients is our motto. In dynamic business situations where customer preferences change faster than ever, we are agile and flexible in our approach to offer the best solutions. Our clients value our start-up culture and appreciate our readiness to partner with them for providing the best customer experience.</p>"
-    copyright = "Copyright (c) 2016 - 2017, Team Synergy Global Solutions; all rights reserved."
+    copyright = "Copyright (c) 2016 - 2021, Team Synergy Global Solutions; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -155,8 +163,8 @@ paginate = 10
 [params.see_more]
     enable = true
     icon = "fa fa-handshake-o"
-    title = "Why Choose Us?"
-    subtitle = "Outsourcing to the right partner can accelerate business growth. At TSG Solutions, we focus on the twin criteria of cost optimization and high quality customer interactions. As the first point of contact for your customers, we are able to precisely identify (pin-point) the pain points (areas of improvement), strengths and weaknesses; thereby providing you with all the business intelligence you need to ensure a heightened positive experience for customers. As a company, we are highly focussed on the human side of y/our customers. We analyze every customer interaction to identify what could be made better to make your customers happier. "
+    title = "Why Partner With Us ?"
+    subtitle = "For over 10 years, we've been helping companies shoot for and achieve first contact resolution (FCR). All customers hope their issue is resolved on the first contact. We partner with our clients to identify which contact reasons can be solved on the first contact. We then provide 24/7 support for these contact channels and drivers at a fraction of the cost of your voice agents, freeing up your agents to take harder contacts via voice. "
     link_url = "contact"
     link_text = "Get In Touch"
 
