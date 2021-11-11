@@ -1,5 +1,5 @@
 
-baseurl = "http://tsgsolutions.in/"
+baseurl = "https://tsgsolutions.in/"
 
 title = "Team Synergein Global Solutions"
 theme = "hugo-universal-theme"
@@ -106,7 +106,7 @@ paginate = 10
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
-    logo = "img/logo.png"
+    logo = "img/LOGO_TSGSOLUTIONS.png"
     logo_small = "img/logo.png"
     address = """<p><strong>Team Synergy Global Solutions.</strong>
         <br> No. A210 Titanium city centre , 100 Feet Anand Nagar Rd Satellite
